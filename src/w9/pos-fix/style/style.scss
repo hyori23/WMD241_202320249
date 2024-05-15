@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-block: 0;
+}
+
+.container {
+  max-width: 60rem;
+  margin-inline: auto;
+  padding-block: 1.25rem;
+  padding-inline: 5rem;
+  background-color: oklab(0.95 0 0);
+}
+
+.fixed {
+  position: fixed;
+  font-weight: 600;
+  font-weight: 24px;
+  color: #ff0000;
+  &-a {
+    right: 2rem;
+    bottom: 2rem;
+  }
+
+  &-b {
+    top: 2rem;
+    left: 2rem;
+  }
+}
+
+.sticky {
+  position: sticky;
+  background-color: aqua;
+  height: 15rem;
+  width: 100%;
+  &-a {
+    top: 2rem;
+  }
+}
