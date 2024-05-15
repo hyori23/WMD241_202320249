@@ -82,10 +82,9 @@ body {
   grid-template-rows: repeat(2, 1fr);
   gap: 32px;
 }
-@media screen and (max-width: 1400px) {
-  .card-collection .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+@media (max-width: 1400px) {
+  .card-collection .grid-container .main {
+    row-gap: 270px;
   }
 }
 
